@@ -90,19 +90,6 @@ add_action('wp_enqueue_scripts', 'lmog_enqueue_scripts');
 
 
 // ---
-// Add alt tags to frontend
-// https://themaverickspirit.com/image-alt-tags-wordpress/
-// -------------------------------------------------------------
-function add_img_title($attr, $attachment = null) {
-$img_title = trim(strip_tags($attachment->post_title));
-$attr[‘alt’] = $img_title;
-$attr[‘title’] = $img_title;
-return $attr;
-}
-add_filter(‘wp_get_attachment_image_attributes’, ‘add_img_title’, 10, 2);
-
-
-// ---
 // Custom Date Meta
 // -------------------------------------------------------------
 function custom_date_month() {
