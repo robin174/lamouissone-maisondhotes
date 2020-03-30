@@ -4,7 +4,7 @@
 								<!-- Add fig quote from old homepage -->
 								<section class="block--contact">
 									<section class="unit--contact">
-										<h6 class="footer--title"><i class="far fa-envelope"></i>&nbsp;Contact us</h6>
+										<h6 class="footer--title"><i class="far fa-envelope"></i>&nbsp;Contact us.</h6>
 										<p class="footer--details">To book a stay at the guest house, please contact:<br>
 										Lady Lockett - 00 33 698 88 64 10 (English)<br>
 										<a href="mailto:maggielockett@lamouissone.com" title="Email Lady Lockett">maggielockett@lamouissone.com</a><br>
