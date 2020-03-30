@@ -6,22 +6,8 @@
 			</tr>
 		</thead>
 		<tbody>
-			<!-- 
-				<tr>
-				    <td><strong>Standard Season 2018</strong><br>01 January - 16 June</td>
-				    <td>&euro;2,600 per week,<br> &euro;370 per night</td>
-				</tr>
-				<tr>
-				    <td><strong>High Summer Season 2018</strong><br>17 June - 02 September*</td>
-				    <td>&euro;3,200 per week,<br> &euro;460 per night</td>
-				</tr>
-				<tr>
-				    <td><strong>Standard Season 2018</strong><br>01 September - 31 December</td>
-				    <td>&euro;2,600 per week,<br> &euro;370 per night</td>
-				</tr>
-			-->
 			<tr>
-			    <td><strong>Standard Season 2020</strong><br>01 January - 14 June</td>
+			    <td><strong>Standard Season 2020</strong><br>01 January - 14 June*</td>
 			    <td>&euro;2,600 per week,<br> &euro;370 per night</td>
 			</tr>
 			<tr>
@@ -29,7 +15,7 @@
 			    <td>&euro;3,200 per week,<br> &euro;460 per night</td>
 			</tr>
 			<tr>
-			    <td><strong>Standard Season 2020</strong><br>01 September - 31 December</td>
+			    <td><strong>Standard Season 2020</strong><br>01 September - 31 December*</td>
 			    <td>&euro;2,600 per week,<br> &euro;370 per night</td>
 			</tr>
 		</tbody>
