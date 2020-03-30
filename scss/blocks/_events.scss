@@ -1,0 +1,39 @@
+section.block--events {
+	padding-left: $padding-general;
+	padding-right: $padding-general;
+}
+
+.unit--row-event {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	margin-bottom: $margin-general; // Specific to gutter width
+	&:hover {
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	}
+}
+
+
+
+.unit--row-event {
+	h1 {}
+	h2.event--title-home {
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 1.1;
+		margin-bottom: 5px;
+	}
+	p.event--description-home {
+		color: white;
+		font-size: 15px;
+		line-height: 1.2;
+	}
+	p.event--date-home {
+		text-transform: uppercase;
+		color: white;
+		font-size: 12px;
+		font-weight: bold;
+		margin-bottom: 5px;
+	}
+	p.event--cta-home a {
+		color: white;
+	}
+}
