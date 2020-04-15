@@ -22,13 +22,13 @@
 		<!-- If Site Icon isn't set in customizer -->
 		<?php if ( ! function_exists( 'has_site_icon' ) || ! has_site_icon() ) { ?>
 			<!-- Icons & Favicons -->
-			<link rel="shortcut icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/images/favicon-guesthouse.png">
-			<link href="<?php echo get_template_directory_uri(); ?>/images/lm-apple-icon-touch.png" rel="apple-touch-icon" />
+			<link rel="shortcut icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png">
+			<link href="<?php echo get_template_directory_uri(); ?>/images/apple-icon-touch.png" rel="apple-touch-icon" />
 			<!--[if IE]>
 				<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 			<![endif]-->
 			<meta name="msapplication-TileColor" content="#f01d4f">
-			<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/images/lm-win8-tile-icon.png">
+			<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/images/win8-tile-icon.png">
 	    	<meta name="theme-color" content="#121212">
 	    <?php } ?>
 
