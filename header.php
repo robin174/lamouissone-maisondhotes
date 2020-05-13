@@ -34,6 +34,8 @@
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
+		<!-- Font Awesome -->
+		<script src="https://kit.fontawesome.com/536ac8cfe5.js" crossorigin="anonymous"></script>
 		<?php wp_head(); ?>
 	</head>
 	
