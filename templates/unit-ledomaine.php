@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="small-12 medium-4 large-3 columns">
 			<figure>
-				<a href="https://www.lamouissone.com/fr/accueil/" target="_blank" title="Le domaine de la La Mouissone"><img src="<?php echo get_template_directory_uri(); ?>/images/use-guesthouse-oct2018-sm.jpg" style="border-radius: 50%;"></a>
+				<a href="https://www.lamouissone.com/fr/accueil/" target="_blank" title="Le domaine de la La Mouissone"><img src="<?php echo get_template_directory_uri(); ?>/images/use-olivegardens-sundaytimes18.jpg" style="border-radius: 50%;"></a>
 			</figure>
 		</div>
 		<div class="small-12 medium-8 large-9 columns">
