@@ -1,0 +1,38 @@
+figure {
+	padding: 0;
+	margin: 0;
+}
+
+figure {
+	&.in-article {
+		margin-bottom: $margin-small;
+	}
+	& img {
+		// @include transition-default;
+		&.border-shadow {
+			border: 5px solid #FFF;
+  			box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+		}
+		&.border{}
+		&.border:hover {}
+	}
+	& figcaption.caption {
+		font-size: 90%;
+		margin-top: 5px;
+		margin-bottom: 10px;
+		font-style: italic;
+		font-weight: $font-semi-bold;
+		color: $color-primary
+	}
+}
+
+
+// Carzy Lazy - plugin styling
+img[src*='data:image/gif;base64'] {
+    border: 5px dashed #dbdbdb;
+}
+
+img.crazy_lazy {
+    background: url(/wp-includes/images/wpspin-2x.gif) no-repeat center center;
+    background-size: 16px 16px;
+}

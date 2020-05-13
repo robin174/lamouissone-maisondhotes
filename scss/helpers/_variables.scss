@@ -1,0 +1,28 @@
+// Colors - Guest House (gh)
+
+$color-primary: #56A1A8; // Blue
+$color-secondary: #453551; // Purple
+$color-tertiary: #000; // To delete
+
+$texture-primary: url('../images/lmgh-texture.jpg');
+
+$color-primary-dark: darken($color-primary,5%);
+$color-secondary-dark: darken($color-secondary,10%);
+$color-tertiary-dark: #000; // To delete
+ 
+// Spacing
+$base-value: 1em; // To test ems value as opposed to px
+
+$margin-general: $base-value * 2;
+$margin-small: $base-value;
+$padding-general: $base-value * 2;
+$padding-small: $base-value;
+
+// Font
+$font-sans: 'Montserrat', sans-serif;
+
+$font-normal: 500;
+$font-semi-bold: 600;
+$font-bold: 700;
+
+$letter-spacing: $base-value / 4;

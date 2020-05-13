@@ -251,6 +251,22 @@ span.date--news {
   font-size: 80%;
   margin-bottom: 3px; }
 
+.unit--olivegrove, .ledomaine {
+  border: 1px solid rgba(101, 103, 51, 0.5);
+  padding: 2em;
+  padding-right: 4em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  background: rgba(101, 103, 51, 0.1) url("../images/lm-use-olives-10.png"); }
+  .unit--olivegrove p:last-child, .ledomaine p:last-child {
+    margin-bottom: 0; }
+  .unit--olivegrove a, .ledomaine a {
+    color: #2b2132;
+    text-transform: underline;
+    font-weight: 700; }
+    .unit--olivegrove a:hover, .ledomaine a:hover {
+      color: #56A1A8; }
+
 figure {
   padding: 0;
   margin: 0; }

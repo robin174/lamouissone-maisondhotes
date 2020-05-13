@@ -1,0 +1,47 @@
+.top-bar {
+	border-bottom: 7px solid $color-primary;
+	padding: 0 25px;
+}
+
+.top-bar, .top-bar ul {
+	background: $color-secondary;
+}
+
+.top-bar a {
+	font-size: 14px;
+	color: white;
+	font-weight: $font-semi-bold;
+}
+
+.menu > li > a {
+	line-height: 1;
+	padding: 0.5rem 0.35rem;
+}
+
+.menu > li.menu-text {
+	padding-left: 0;
+	padding-top: 17px;
+}
+
+.menu.vertical > li:hover {
+	background-color: $color-secondary-dark;
+}
+
+// Dropdown Menu
+.dropdown.menu .submenu {
+	border: none;
+}
+
+.dropdown.menu .submenu > li {
+	background-color: $color-secondary;
+}
+
+.dropdown.menu .submenu > li:hover {
+	background-color: $color-secondary-dark;
+}
+
+.dropdown.menu .is-dropdown-submenu-parent a::after {} // triangle 'box'
+
+.dropdown.menu .is-dropdown-submenu-parent.is-right-arrow > a::after {
+	border-color: transparent transparent transparent #fff;
+}

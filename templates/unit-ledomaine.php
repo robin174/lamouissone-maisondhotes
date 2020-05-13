@@ -1,4 +1,4 @@
-<div class="unit--guesthouse">
+<div class="unit--olivegrove">
 	<div class="row">
 		<div class="small-12 medium-4 large-3 columns">
 			<figure>
