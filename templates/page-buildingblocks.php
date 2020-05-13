@@ -149,7 +149,7 @@
                 global $templ;
                 $templ = get_sub_field('unit_template_name');
             ?>
-            <div class="small-12 medium-centered medium-10 large-9 columns">
+            <div class="small-12 medium-centered medium-12 large-12 columns">
                 <?php include(locate_template("templates/$templ".".php")); ?>
             </div>
         </div><!-- end .row -->
