@@ -109,11 +109,24 @@ p {
     font-weight: 600; }
   p.footer--details {
     color: white; }
+    p.footer--details a {
+      text-decoration: underline; }
+      p.footer--details a:hover {
+        color: white; }
   p a {
     color: #56A1A8; }
     p a:hover {
       color: #56A1A8;
       text-decoration: underline; }
+  p.copyright {
+    font-size: 90%;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5); }
+    p.copyright a {
+      color: rgba(255, 255, 255, 0.5);
+      text-decoration: underline; }
+      p.copyright a:hover {
+        color: rgba(255, 255, 255, 0.7); }
 
 ul.bullet {
   margin-bottom: 10px; }

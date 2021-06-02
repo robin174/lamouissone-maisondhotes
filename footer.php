@@ -21,7 +21,7 @@
 									<section class="unit--coopyright">
 										<p class="source-org copyright"><i>79 Chemin de St. Christophe, 06130 Grasse</i><br>
 										&copy; <?php echo date('Y'); ?>. All rights reserved. <?php bloginfo('name'); ?>.<br>
-										Illustrations by Bill Sanderson (www.billsandersonart.com)</p>
+										Illustrations by <a href="https://www.billsandersonart.com" title="Bill Sanderson Art">Bill Sanderson</a></p>
 									</section>
 								</section>
 								<section class="block--weather">

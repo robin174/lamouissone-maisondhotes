@@ -31,12 +31,30 @@ p {
 	}
 	&.footer--details {
 		color: white;
+		& a {
+			text-decoration: underline;
+			&:hover {
+				color: white;
+			}
+		}
 	}
 	& a {
 		color: $color-primary;
 		&:hover {
 			color: $color-primary;
 			text-decoration: underline;
+		}
+	}
+	&.copyright {
+		font-size: 90%;
+		font-weight: $font-semi-bold;
+		color: rgba(255,255,255,0.5);
+		& a {
+			color: rgba(255,255,255,0.5);
+			text-decoration: underline;
+			&:hover {
+				color: rgba(255,255,255,0.7);
+			}
 		}
 	}
 }
