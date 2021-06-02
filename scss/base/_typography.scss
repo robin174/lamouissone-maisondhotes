@@ -118,7 +118,7 @@ h3 {
 h6 {
 	&.footer--title {
 		font-size: 16px;
-		// @include title-default;
+		@include title-default;
 		font-weight: $font-bold;
 		color: white;
 		margin-bottom: 5px;
