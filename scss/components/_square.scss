@@ -1,0 +1,80 @@
+.unit--grid-single, .unit--grid-double {
+	margin-bottom: $margin-general; // Specific to gutter width
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	&:hover {
+    	background-color: rgba(0,0,0,0.2);
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    }
+}
+
+// Single
+.unit--square-single {
+	// @include transition-default;
+	position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* = width for a 1:1 aspect ratio */
+    overflow:hidden;
+}
+
+.unit--content-single {
+	position:absolute;
+    width:100%;
+    height:100%;
+}
+
+.unit--table-single {
+	display:table;
+    width:100%;
+    height:100%;
+    padding:10%;
+}
+
+.unit--table-cell {
+	display:table-cell;
+    vertical-align:top;
+}
+
+// Double
+.unit--square-double {
+	// @include transition-default;
+	position: relative;
+    width: 100%;
+    padding-bottom: 46.5%; /* = width for a 1:2 (+ gutter) aspect ratio */
+    overflow:hidden;
+}
+
+.unit--content-double {
+	position:absolute;
+    width:100%;
+    height:50%;
+}
+
+.unit--table-double {
+	display:table;
+    width:100%;
+    height:100%;
+    padding:5%;
+}
+
+// TO SEPARATE
+
+.unit--square-single, .unit--square-double {
+	p.uc--square {
+		text-transform: uppercase;
+		color:black;
+		letter-spacing: 0.2em;
+		margin: 0;
+		padding: 0;
+		line-height: 1;
+	}
+	h2 {
+		color:white;
+		padding: 0;
+		margin: 0;
+		line-height: 1;
+		font-size: 24px;
+	}
+	p.sc--cta {
+		font-size: 14px;
+	}
+}

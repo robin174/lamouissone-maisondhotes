@@ -1,0 +1,29 @@
+section.block--news {
+	padding-left: $padding-general;
+	padding-right: $padding-general;
+}
+
+.unit--news {
+	margin-bottom: $margin-general; // Specific to gutter width
+}
+
+.unit--news-container {
+	background-color: white;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.item--news-info {
+	padding: $padding-small;
+}
+
+h2.title--news {
+	font-weight: $font-bold;
+	font-size: 1.3rem; // check for mobile/tablet
+}
+
+span.date--news {
+	// @include title-default;
+	font-weight: $font-bold;
+	font-size: 80%;
+	margin-bottom: 3px;
+}

@@ -1,0 +1,19 @@
+.unit--olivegrove, .ledomaine {
+	border: 1px solid rgba(101,103,51,0.5);
+	padding: $padding-general;
+	padding-right: $padding-general*2;
+	margin-top: $margin-small;
+	margin-bottom: $margin-general;
+	background: rgba(101,103,51,0.1) url('../images/lm-use-olives-10.png');
+	& p:last-child {
+		margin-bottom: 0;
+	}
+	& a {
+		color: $color-secondary-dark;
+		text-transform: underline;
+		font-weight: $font-bold;
+		&:hover {
+			color: $color-primary;
+		}
+	}
+}

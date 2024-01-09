@@ -1,0 +1,14 @@
+footer, .footer {
+	margin-top: $base-value * 2;
+}
+
+footer {
+	background: $color-secondary;
+	background-image: url('../images/lm-use-olives-10.png');
+	padding-top: $base-value * 3;
+	padding-bottom: $base-value;
+	border-bottom: 7px solid $color-primary;
+	& section[class^="unit--"] {
+		margin-bottom: $base-value * 1.5;
+	}
+}

@@ -1,0 +1,16 @@
+thead, tbody {
+	background-color: rgba(0,0,0,0.05);
+	border:none;
+	color: #453551;
+}
+
+thead {
+	background-color: rgba(0,0,0,0.15);
+}
+
+tbody tr:nth-child(odd) {
+}
+
+tbody tr:nth-child(even) {
+	background-color: rgba(0,0,0,0.05);
+}

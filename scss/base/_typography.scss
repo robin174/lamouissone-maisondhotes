@@ -1,0 +1,143 @@
+// Set font size
+body {
+	color: $color-secondary-dark;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $color-secondary-dark;
+	font-family: $font-sans;
+	font-weight: $font-semi-bold;
+}
+
+h1 {
+	margin: 0;
+}
+
+p, li {
+	font-family: $font-sans;
+	font-weight: $font-normal;
+}
+
+p {
+	color: $color-secondary-dark;
+	&.intro {
+		font-weight: $font-semi-bold;
+		font-size: 22px;
+	}
+	&.note {
+		font-style: italic;
+		font-size: 90%;
+		font-weight: $font-semi-bold;
+	}
+	&.footer--details {
+		color: white;
+		& a {
+			text-decoration: underline;
+			&:hover {
+				color: white;
+			}
+		}
+	}
+	& a {
+		color: $color-primary;
+		&:hover {
+			color: $color-primary;
+			text-decoration: underline;
+		}
+	}
+	&.copyright {
+		font-size: 90%;
+		font-weight: $font-semi-bold;
+		color: rgba(255,255,255,0.5);
+		& a {
+			color: rgba(255,255,255,0.5);
+			text-decoration: underline;
+			&:hover {
+				color: rgba(255,255,255,0.7);
+			}
+		}
+	}
+}
+
+ul.bullet {
+	margin-bottom: 10px;
+	& li {
+		margin-left: $margin-general * 1.5;
+	}
+}
+
+
+
+// To sort font sizes
+
+
+// all H1s
+// Base size: TBC
+h1 {
+	&.font--overlay-head {
+		display: inline;
+		text-transform: uppercase;
+		letter-spacing: $letter-spacing * 1.5;
+		font-size: 18px;
+		color: #fff;
+		padding: $padding-small/1.5 $padding-general;
+		background: rgba(0,0,0,0.65);
+	}
+}
+
+
+// all H2s
+// Base size: TBC
+
+h2 {
+	&.font--strapline-home {
+		font-size: 24px;
+		line-height: 1.5;
+	}
+	&.font--subheading {
+		font-size: 24px;
+		// @include title-default;
+		font-weight: $font-bold;
+	}
+}
+
+
+// all H3s
+// Base size: TBC
+
+h3 {
+	&.font--subheading {
+		font-size: 20px;
+	}
+}
+
+
+// all H6s
+// Base size: TBC
+
+h6 {
+	&.footer--title {
+		font-size: 16px;
+		@include title-default;
+		font-weight: $font-bold;
+		color: white;
+		margin-bottom: 5px;
+	}
+}
+
+
+p {
+	&.grid--head-home {
+		font-size: 80%;
+		// @include title-default;
+		font-weight: $font-bold;
+	}
+}
+
+// For news
+section.item--news-info {
+	& p {
+		font-size: 14px;
+	} 
+}
+
