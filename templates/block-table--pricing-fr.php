@@ -8,7 +8,7 @@
 		<tbody>
 			<tr>
 			    <td><strong>Standard 2024</strong><br>01 janvier 24 - 22 mars 24*</td>
-			    <td>290&euro; par nuitée</td>
+			    <td>290&euro; par nuitée</td> 
 			</tr>
 			<tr>
 			    <td><strong>Printemps 2024</strong><br>23 mars 24 - 31 mai 24*</td>

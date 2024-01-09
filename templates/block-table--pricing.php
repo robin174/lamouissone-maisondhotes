@@ -7,7 +7,7 @@
 		</thead>
 		<tbody>
 			<tr>
-			    <td><strong>Standard Season 2024</strong><br>01 January 2024 - 22 March 2024 (Easter)*</td>
+			    <td><strong>Standard Season 2024</strong><br>01 January 2024 - 22 March 2024 (Easter)*</td> 
 			    <td>&euro;290 per night</td>
 			</tr>
 			<tr>
