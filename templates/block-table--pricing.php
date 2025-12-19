@@ -7,32 +7,24 @@
 		</thead>
 		<tbody>
 			<tr>
-			    <td><strong>Summer 2024</strong><br>01 June 2024 - 31 August 2024*</td>
+			    <td><strong>Standard Season 2026</strong><br>01 January 2026 - 30 April 2026*</td>
+			    <td>&euro;350 per night</td>
+			</tr>
+			<tr>
+			    <td><strong>Spring 2026</strong><br>01 May 2026 - 31 May 2026*</td>
 			    <td>&euro;390 per night</td>
 			</tr>
 			<tr>
-			    <td><strong>Autumn 2024</strong><br>01 September 2024 - 31 December 2024*</td>
-			    <td>&euro;330 per night</td>
+			    <td><strong>Summer 2026</strong><br>01 June 2026 - 31 August 2026*</td>
+			    <td>&euro;420 per night</td>
 			</tr>
 			<tr>
-			    <td><strong>Standard Season 2025</strong><br>01 January 2025 - 31 March 2025*</td>
-			    <td>&euro;370 per night</td>
-			</tr>
-			<tr>
-			    <td><strong>Spring 2025</strong><br>01 April 2025 - 31 May 2025*</td>
+			    <td><strong>Autumn 2026</strong><br>01 September 2026 - 31 October 2026*</td>
 			    <td>&euro;390 per night</td>
 			</tr>
 			<tr>
-			    <td><strong>Summer 2025</strong><br>01 June 2025 - 31 August 2025*</td>
-			    <td>&euro;410 per night</td>
-			</tr>
-			<tr>
-			    <td><strong>Autumn 2025</strong><br>01 September 2025 - 31 October 2025*</td>
-			    <td>&euro;390 per night</td>
-			</tr>
-			<tr>
-			    <td><strong>Standard Season 2025</strong><br>01 November 2025 - 31 December 2025*</td>
-			    <td>&euro;370 per night</td>
+			    <td><strong>Standard Season 2026</strong><br>01 November 2026 - 31 December 2026*</td>
+			    <td>&euro;350 per night</td>
 			</tr>
 		</tbody>
 	</table>
